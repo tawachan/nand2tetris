@@ -6,23 +6,4 @@
 // Multiplies R0 and R1 and stores the result in R2.
 // (R0, R1, R2 refer to RAM[0], RAM[1], and RAM[2], respectively.)
 
-  @1
-  M=0
-(LOOP)
-  @1
-  D=M
-  @10 
-  D=D+A
-  @END
-  D,JLT
-  @1
-  D=M
-  @sum
-  M=D+M
-  @1
-  M=M-1
-  @LOOP
-  0,JMP
-(END)
-  @END
-  0,JMP
+// Put your code here.
